@@ -58,6 +58,7 @@ class guiClass():
             param = self.get_slider('intensity', win_name=self.windowName)
             ret, frame = self.cap.read()
             returned_frame = self.effectRunner.runEffect(self.mode, frame, param)
+            now = datetime.now()
             cv2.imwrite(f'./image_{now.strftime("%d-%m-%Y_%H_%M_%S")}.jpg', returned_frame)
         else :
             self.mode = mode
