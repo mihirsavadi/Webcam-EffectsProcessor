@@ -8,6 +8,8 @@ The structure of this code base abstracts away details between effects processin
 
 The only packages needed are cv2 and numpy. Simply run 'pip install opencv-python numpy'. This code base was tested on Python 3.9.7 on Windows.
 
+Refer to my 1 page report for this project [here](code\ece4580_finalreport_mihirsavadi1.pdf).
+
 The image below is a screenshot of the program running on my machine.
 
 <p align="center">
