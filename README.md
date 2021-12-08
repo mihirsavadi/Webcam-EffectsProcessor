@@ -10,8 +10,6 @@ The only packages needed are cv2 and numpy. Simply run 'pip install opencv-pytho
 
 The image below is a screenshot of the program running on my machine.
 
-![](./code/test/gui_screenshot.jpg)
-
 <p align="center">
-    <img src="./code/test/gui_screenshot.jpg" width="576" height="500">
+    <img src="./test/gui_screenshot.jpg" width="576" height="500">
 </p>
